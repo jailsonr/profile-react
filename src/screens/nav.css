@@ -1,0 +1,207 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+  background-color: whitesmoke;
+}
+h1 {
+  font-size: 2.6rem;
+  text-align: left;
+  color: rgb(12, 74, 96);
+  font-weight: 900;
+}
+li,
+button,
+label,
+input,
+p {
+  font-size: 2rem;
+}
+h2 {
+  font-size: 3.8rem;
+  padding-top: 3%;
+}
+h3 {
+  font-size: 2.2rem;
+  font-weight: 100;
+}
+a {
+  color: grey;
+  text-decoration: none;
+}
+
+/* Nav Section With Hero */
+
+.main-head {
+  background-color: whitesmoke;
+}
+nav {
+  display: flex;
+  padding: 2rem;
+  width: 90%;
+  margin: auto;
+  min-height: 10vh;
+  align-items: center;
+}
+nav ul {
+  display: flex;
+  flex: 1 1 40rem;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+}
+#logo {
+  flex: 2 1 40rem;
+}
+
+.intro {
+  display: flex;
+  width: 90%;
+}
+.intro-img {
+  flex: 2 1 10rem;
+  margin-top: -30;
+}
+.intro img {
+  height: 10rem;
+  width: 80%;
+  height: 115%;
+  margin-top: -6rem;
+}
+.intro-text {
+  flex: 2 1 20rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.intro-text h2 {
+}
+.intro h3 {
+  margin: 0;
+  padding-top: 0%;
+  color: rgb(239, 108, 51);
+}
+.intro-text p {
+  padding-top: 3rem;
+  text-align: right;
+  padding-bottom: 3rem;
+}
+.intro button {
+  padding: 1rem 2rem;
+  background: rgb(12, 74, 96);
+  border: none;
+  color: white;
+}
+button {
+  padding: 1rem 2rem;
+  background: rgb(12, 74, 96);
+  border: none;
+  color: white;
+}
+
+.line-divide {
+  padding-top: 1%;
+  align-items: center;
+  width: 87%;
+  margin-right: 20rem;
+  margin: auto;
+}
+
+.about {
+  padding-top: 5%;
+  display: flex;
+  width: 90%;
+  margin: auto;
+  padding-bottom: 3%;
+}
+.about-img {
+  margin: 0;
+  flex: 2 0 0rem;
+}
+.about img {
+  height: 35rem;
+  border-radius: 5% 5% 5% 5%;
+}
+.about-text {
+  flex: 2 4 20rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-bottom: 3%;
+}
+.about-text p {
+  text-align: left;
+  padding-bottom: 2%;
+}
+
+.experience {
+  display: flex;
+  width: 90%;
+  padding-top: 3%;
+}
+.experience h2 {
+  padding: 0%;
+}
+.experience p {
+  text-align: center;
+}
+.intro-text {
+  flex: 2 1 20rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.info a {
+  text-decoration: none;
+}
+
+.cards {
+  display: flex;
+  min-height: 50vh;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: auto;
+}
+
+.card {
+  text-align: center;
+  flex: 1 1 25rem;
+  min-height: 40vh;
+  margin: 2rem 5rem;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1), 0px 20px 20px rgba(0, 0, 0, 0.1);
+}
+
+.cards img {
+  max-width: 30%;
+  margin: 0.5rem;
+}
+.card h4,
+p {
+  padding: 1rem;
+}
+.card-icon {
+  background-color: rgb(12, 74, 96);
+}
+.footer {
+  display: flex;
+  padding-top: 3%;
+  width: 90%;
+  margin: auto;
+  min-height: 10vh;
+  justify-content: space-around;
+  text-align: left;
+}
+.footer a {
+  text-decoration: none;
+}
+.footer p {
+  text-align: left;
+}
+.footer ul {
+  list-style: none;
+}
